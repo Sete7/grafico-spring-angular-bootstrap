@@ -1,0 +1,28 @@
+.app-footer__ {
+  width: 100%;
+  float: left;
+  background-color: #333;
+  padding: 30px 10px;
+}
+
+.app-footer__ ul {
+  list-style: none;
+  color: #000;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.app-footer__ ul li {
+  color: #FFF;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.app-footer__ ul li:nth-child(1) a {
+  color: #FFF;
+  margin-left: 3px;
+  font-weight: 800;
+}

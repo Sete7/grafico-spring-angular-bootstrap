@@ -1,0 +1,22 @@
+<section class="section-grafic">
+    <div class="content__">
+        <div class="col-md-12 box">
+            <div class="box-graphic">
+                <div id="chart">
+                    <div class="col-md-6 rate-success">
+                        <h2 class="title__">Taxa de Sucesso (%)</h2>
+                        <apx-chart [series]="taxadeSucesso?.series" [chart]="taxadeSucesso?.chart"
+                            [labels]="taxadeSucesso" [plotOptions]="taxadeSucesso?.options"
+                            [xaxis]="taxadeSucesso?.xaxis"></apx-chart>
+                    </div>
+
+                    <div class="col-md-6 all-seller">
+                        <h2 class="title__">Todas as vendas</h2>
+                        <apx-chart [series]="groupedBySeller?.sum" [chart]="groupedBySeller?.chart"
+                            [labels]="groupedBySeller?.name" [responsive]="groupedBySeller?.responsive"></apx-chart>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

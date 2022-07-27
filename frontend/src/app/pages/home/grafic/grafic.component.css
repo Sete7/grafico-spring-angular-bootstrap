@@ -1,0 +1,20 @@
+.section-grafic {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.box-graphic {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#chart {
+  text-align: left;
+}
+
+.title__ {
+  color: #ff4560;
+  text-align: center;
+}

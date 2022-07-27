@@ -1,0 +1,26 @@
+.data-table__ {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.title__ {
+  color: #ff4560;
+  margin-bottom: 25px;
+}
+
+.title__::after {
+  color: #ff4560;
+  content: "";
+  max-width: 245px;
+  height: 3px;
+  background-color: #ff4560;
+  display: block;
+}
